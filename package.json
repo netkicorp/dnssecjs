@@ -1,0 +1,51 @@
+{
+  "name": "dnssec",
+  "version": "0.0.1",
+  "authors": [
+    "Netki Opensource <opensource@netki.com>"
+  ],
+  "license" : "BSD-3-Clause",
+  "description": "DNSSEC Validating Resolver",
+  "keywords": [
+    "dns",
+    "dnssec",
+    "rrsig",
+    "dnskey",
+    "secure"
+  ],
+  "homepage": "https://netki.com",
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netkicorp/dnssecjs"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.5.0"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "dependencies": {
+    "base32.js": "^0.1.0",
+    "biginteger.js": "^1.0.1",
+    "binstring": "^0.2.1",
+    "buffercursor": "0.0.12",
+    "jsrsasign": "^5.0.5",
+    "native-dns-packet": "netkicorp/native-dns-packet#0.1.2",
+    "string": "^3.3.1"
+  },
+  "devDependencies": {
+    "browserify": "~13.1.1",
+    "optimist": "",
+    "nodeunit": ">= 0.7.4",
+    "grunt": "~0.4.2",
+    "grunt-browserify": "~5.0.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0"
+  }
+}
